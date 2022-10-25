@@ -18,7 +18,7 @@ export const ListOfHeroesReal = ({el, deleteData, SeteditData, taskCheck}) => {
 
             <li className={`flex ${el.completed && "taskCompleted" }`}>{el.nameReal}  </li>
             <li className={`flex ${el.completed && "taskCompleted" }`}>{el.Hero}   </li>
-            <li className={`flex`}>{el.Prioridad}   </li>
+            <li className={"flex"}>{el.Prioridad}</li>
             <div>
             <button className='flex' onClick={() => SeteditData(el)}> <EditNote /></button>
             <button className='flex' onClick={() => deleteData(el.id)}> < CrossIcon/> </button>

@@ -152,8 +152,11 @@ ul, li {
   }
 }
 
-@media (max-width: 454px) {
-  .agregar__tarea {
-   
+@media (max-width: 600px) {
+  .ul__hero {
+    display: block;
+  }
+  .flex {
+    padding: 6px;
   }
 }
