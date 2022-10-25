@@ -9,8 +9,8 @@ body {
     background-color: #2a5a68; 
     background-image: url("https://fondosmil.com/fondo/17040.jpg"); 
     background-size: cover;
-    height: 100vh;
     background-repeat: no-repeat;
+    height: 105vh;
     opacity: 0.7;
 }
 .app {
@@ -117,6 +117,31 @@ ul, li {
 }
 .contenedor__notask--h2 {
   margin: 20px;
+}
+.select {
+  font-weight: 700;
+  padding: 5px;
+  border-radius: 5px;
+}
+.prio__alta {
+    color: #ff0000;
+    font-weight: 800;
+    font-family: revert;
+    font-size: 1.3em;
+}
+
+.prio__media {
+    color: #bb9b00;
+    font-weight: 800;
+    font-family: revert;
+    font-size: 1.3em;
+}
+
+.prio__baja {
+    color: #23b523;
+    font-weight: 800;
+    font-family: revert;
+    font-size: 1.3em;
 }
 
 /* MEDIA QUERIES */
