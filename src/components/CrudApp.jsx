@@ -6,9 +6,6 @@ const initialForm = {
     nameReal: "",
     Hero: "",
     id: null,
-    Alta: "Alta",
-    Media: "Media",
-    Baja: "Baja",
     completed: false
 }
 const CrudApp = ({addData, updateData, editData, SeteditData}) => {
@@ -48,6 +45,9 @@ const CrudApp = ({addData, updateData, editData, SeteditData}) => {
       SeteditData(null)
     }
 
+    if (form.Prioridad === "Baja") {
+      <div style={{color: 'green'}}> </div>
+    }
 
   return (
     <div>
