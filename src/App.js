@@ -41,7 +41,7 @@ const restantes = dbHero.filter((el) => !el.completed).length
      <div className="app">
       {editData ? <h2 className='condicional'>Editar Tarea</h2> : <h2 className='condicional' >Agregar Tarea</h2>}
      <CrudApp addData={addData} updateData={updateData} editData={editData} SeteditData={SeteditData} />
-      <h1 className='lista__tareas'>MIS NOTAS</h1>
+      <h1 className='lista__tareas'>Mis Notas</h1>
      <ListOfHeros data={dbHero} SeteditData={SeteditData}  deleteData={deleteData} taskCheck={taskCheck}/>
      <div className='backgroundimage'></div>
      <ClearCompleted clearComplete={clearComplete} restantes={restantes} />
