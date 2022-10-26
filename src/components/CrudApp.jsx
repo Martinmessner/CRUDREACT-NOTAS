@@ -45,10 +45,7 @@ const CrudApp = ({addData, updateData, editData, SeteditData}) => {
       SeteditData(null)
     }
 
-    if (form.Prioridad === "Baja") {
-      <div style={{color: 'green'}}> </div>
-    }
-
+  
   return (
     <div>
     <form onSubmit={sendForm}>
@@ -56,12 +53,12 @@ const CrudApp = ({addData, updateData, editData, SeteditData}) => {
         <input className='input__time' type="time" name="Hero"  value={form.Hero}onChange={handleChange} />
         <button className='agregar__tarea' type="submit" value="Agregar Tarea"><AddTasks /></button>
 
- <select className='select' name='Prioridad' onChange={handleChange}>
+    <select className='select' name='Prioridad' onChange={handleChange}>
         <option  selected disabled hidden>Prioridad</option>
         <option className='prio__alta'  value={form.Alta}>Alta</option>
         <option className='prio__media' value={form.Media} >Media</option>
-         <option className='prio__baja' value={form.Baja}>Baja</option>
-</select>
+        <option className='prio__baja' value={form.Baja}>Baja</option>
+    </select>
     </form>
     </div>
   )

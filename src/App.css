@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #2a5a68; 
+    background-color: #682a64; 
     background-image: url("https://fondosmil.com/fondo/17040.jpg"); 
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,9 +23,12 @@ body {
 ul, li {
   list-style: none;
 }
+
+ /*linear-gradient(90deg, rgba(143,43,214,1) 0%, rgb(226 125 255)37%, rgba(255,255,255,1) 79%) */
+
 .div__hero {
   background: rgb(143,43,214);
-  background: linear-gradient(90deg, rgba(143,43,214,1) 0%, rgba(174,83,200,1) 37%, rgba(255,255,255,1) 79%);
+  background: linear-gradient(90deg, rgb(243 225 255) 0%, rgb(242 195 255)37%, rgba(255,255,255,1) 79%);
   padding: 8px;
   border-bottom: black solid 2px;
   color: black;
@@ -57,7 +60,7 @@ ul, li {
 }
 /* Div de Restantes y de Borrar todas las tareas terminadas */
 .div__clearcomplete {
-  background: linear-gradient(90deg, rgba(143,43,214,1) 0%, rgba(174,83,200,1) 37%, rgba(255,255,255,1) 79%);
+  background: linear-gradient(90deg, rgb(243 225 255) 0%, rgb(242 195 255)37%, rgba(255,255,255,1) 79%);
   color: #eee;
   font-weight: 700;
   padding: 10px;
@@ -152,7 +155,7 @@ ul, li {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   .ul__hero {
     display: block;
   }
@@ -160,6 +163,6 @@ ul, li {
     padding: 6px;
   }
   body {
-    background-position: 50%;
+    background-position: center;
   }
 }
