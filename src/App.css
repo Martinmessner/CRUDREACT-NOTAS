@@ -61,7 +61,7 @@ ul, li {
 /* Div de Restantes y de Borrar todas las tareas terminadas */
 .div__clearcomplete {
   background: linear-gradient(90deg, rgb(243 225 255) 0%, rgb(242 195 255)37%, rgba(255,255,255,1) 79%);
-  color: #eee;
+  color: rgb(0, 0, 0);
   font-weight: 700;
   padding: 10px;
   justify-content: space-between;

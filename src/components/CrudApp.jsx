@@ -32,7 +32,7 @@ const CrudApp = ({addData, updateData, editData, SeteditData}) => {
     const sendForm = (e) => { //hacer validaciones
       e.preventDefault();
      if (!form.nameReal || form.Prioridad === ""){
-       alert("Te olvidaste de agregar una tarea o una Prioridad")
+       alert("Te olvidaste de agregar una tarea o una prioridad")
       return;
      }
     
