@@ -6,6 +6,7 @@ const initialForm = {
     nameReal: "",
     Hero: "",
     id: null,
+    Prioridad: "",
     completed: false
 }
 const CrudApp = ({addData, updateData, editData, SeteditData}) => {
@@ -30,8 +31,8 @@ const CrudApp = ({addData, updateData, editData, SeteditData}) => {
 
     const sendForm = (e) => { //hacer validaciones
       e.preventDefault();
-     if (!form.nameReal){
-       alert("Te olvidaste de agregar una tarea")
+     if (!form.nameReal || form.Prioridad === ""){
+       alert("Te olvidaste de agregar una tarea o una Prioridad")
       return;
      }
     
@@ -55,9 +56,9 @@ const CrudApp = ({addData, updateData, editData, SeteditData}) => {
 
     <select className='select' name='Prioridad' onChange={handleChange}>
         <option  selected disabled hidden>Prioridad</option>
-        <option className='prio__alta'  value={form.Alta}>Alta</option>
-        <option className='prio__media' value={form.Media} >Media</option>
-        <option className='prio__baja' value={form.Baja}>Baja</option>
+        <option className='prio__alta'>Alta</option>
+        <option className='prio__media'>Media</option>
+        <option className='prio__baja'>Baja</option>
     </select>
     </form>
     </div>

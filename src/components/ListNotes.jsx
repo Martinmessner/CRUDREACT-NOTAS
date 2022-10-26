@@ -19,7 +19,7 @@ export const ListOfHeroesReal = ({el, deleteData, SeteditData, taskCheck}) => {
 
             <li className={`flex ${el.completed && "taskCompleted" }`}>{el.nameReal}  </li>
             <li className={`flex ${el.completed && "taskCompleted" }`}>{el.Hero}   </li>
-            <li className={`flex ${el.Prioridad === "Alta" ? "prio__alta" : "flex"} || ${el.Prioridad === "Media" ? "prio__media" : "flex"} || ${el.Prioridad === "Baja" ? "prio__baja" : "flex"}   `}>Prioridad: {el.Prioridad}
+            <li className={`flex ${el.Prioridad === "Alta" ? "prio__alta" : "flex"} || ${el.Prioridad === "Media" ? "prio__media" : "flex"} || ${el.Prioridad === "Baja" ? "prio__baja" : "flex"}`}>Prioridad: {el.Prioridad}
             
             </li>
             <div>
