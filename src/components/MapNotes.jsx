@@ -47,15 +47,3 @@ import { Droppable, Draggable } from "@hello-pangea/dnd";
 export default listOfHeros
 
 
-/*
-
-
-
-
-
-
-
-
-
-
-*/

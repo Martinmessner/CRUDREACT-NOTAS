@@ -10,8 +10,10 @@ body {
     background-image: url("https://fondosmil.com/fondo/17040.jpg"); 
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
     height: 100%;
     opacity: 0.7;
+    min-height: 555px;
 }
 .app {
   text-align: center;
@@ -23,9 +25,11 @@ body {
 ul, li {
   list-style: none;
 }
-
- /*linear-gradient(90deg, rgba(143,43,214,1) 0%, rgb(226 125 255)37%, rgba(255,255,255,1) 79%) */
-
+.nota__tareas {
+  color: white;
+  font-weight: 700;
+  font-family: sans-serif;
+}
 .div__hero {
   background: rgb(143,43,214);
   background: linear-gradient(90deg, rgb(243 225 255) 0%, rgb(242 195 255)37%, rgba(255,255,255,1) 79%);

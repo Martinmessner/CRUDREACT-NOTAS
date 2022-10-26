@@ -64,7 +64,7 @@ const handleDragEnd = (result) => {
       {editData ? <h2 className='condicional'>Editar Tarea</h2> : <h2 className='condicional' >Agregar Tarea</h2>}
      <CrudApp addData={addData} updateData={updateData} editData={editData} SeteditData={SeteditData} />
       <h1 className='lista__tareas'>Mis Notas</h1>
-
+      <p className="nota__tareas">Tambien podes modificar el lugar de las notas para tu comodidad</p>
    <DragDropContext  onDragEnd={handleDragEnd}>
      <ListOfHeros data={dbHero} SeteditData={SeteditData}  deleteData={deleteData} taskCheck={taskCheck}/>
 </DragDropContext>
