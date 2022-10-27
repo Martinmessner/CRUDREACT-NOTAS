@@ -7,7 +7,7 @@
 
 body {
     background-color: #682a64; 
-    background-image: url("https://fondosmil.com/fondo/17040.jpg"); 
+    background-image: url("./logowebpack/fondocrudreact.webp"); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -27,6 +27,7 @@ ul, li {
 }
 .nota__tareas {
   color: white;
+  font-size: 1.3em;
   font-weight: 700;
   font-family: sans-serif;
 }
